@@ -7,18 +7,19 @@
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".DetailFragment">
+
     <TextView
         android:id="@+id/coffee_title"
-        android:textStyle="bold"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="@string/affogato_title"/>
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:text="@string/affogato_title" />
 
     <TextView
         android:id="@+id/coffee_desc"
         android:layout_width="match_parent"
-        android:layout_height="126dp"
+        android:layout_height="151dp"
         android:gravity="center"
         tools:text="@string/affogato_desc" />
 
